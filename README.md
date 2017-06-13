@@ -28,7 +28,7 @@ Last week we started exploring using CSS to add styles to our pages. This week w
 
 ![alt text](https://github.com/megknoll/coderbabez-css-wk2/raw/master/img/boxmodel.png "Box Model")
 
-2. Sometimes we want to group these boxes together into larger boxes that can be styled as a single section. When we want to do that, we can use the <div> tag. Think of the div tag a blank slate / empty box. 
+2. Sometimes we want to group these boxes together into larger boxes that can be styled as a single section. When we want to do that, we can use the `<div>` tag. Think of the div tag a blank slate / empty box. 
 
 3. When we nest tags inside of each other (like with a div), we call the outer element the parent and the innder element the child.
 
