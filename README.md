@@ -96,7 +96,7 @@ Use flex box to....
 2. Center the hero image inside of the red div
 3. Make the subsection images align in the center of the page in a row, with space around each element*/
 
-When you're done, [it should look like this.](./hero-supply-solution.png)
+When you're done, [it should look like this.](./img/hero-supply-solution.png)
 
 ### Final Thoughts
 Today we learned how we can use CSS to add style and layouts to our pages.
