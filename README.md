@@ -24,17 +24,19 @@ Last week we started exploring using CSS to add styles to our pages. This week w
 
 ### Lesson - CSS and Layouts:
 
-1. When you look at HTML, imagine every element having a box drawn around it. BOX MODEL
+1. When you look at HTML, imagine every element having a box drawn around it. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
 
 ![alt text](https://github.com/megknoll/coderbabez-css-wk2/raw/master/img/boxmodel.png "Box Model")
 
-2. PARENT vs CHILD ELEMENTS
+2. Sometimes we want to group these boxes together into larger boxes that can be styled as a single section. When we want to do that, we can use the <div> tag. Think of the div tag a blank slate / empty box. 
+
+3. When we nest tags inside of each other (like with a div), we call the outer element the parent and the innder element the child.
 
 ![alt text](https://github.com/megknoll/coderbabez-css-wk2/raw/master/img/child_parent_element.png "Parent vs. Child Element")
 
-3. USING DIVS TO GROUP ELEMENTS
+4. The ability to group items together like this becomes expecially useful when we want to create complex layouts like rows and columns. There are a few ways to do this in CSS. The most common way to create layouts is something called a "float", but today we're going to use a new CSS method called "flexbox". Flexbox is more modern, and is probably what most sites will use in the future, even though some older browsers don't support it. 
 
-4. USING FLEXBOX. In flexbox, the parent element tells the child elements how to behave.
+5. In flexbox, the parent element tells the child elements how to behave.
 ```html
 <div class=”parent”>
 	<div class=”child”>
@@ -43,6 +45,7 @@ Last week we started exploring using CSS to add styles to our pages. This week w
 </div>
 ```
 
+This CSS is telling all of the elements inside of the parent tag to appear in a centered column.
 ```css
 parent {
 	display: flex;
@@ -52,6 +55,7 @@ parent {
 
 ```
 
+Look at the flexbox cheat sheet below for more flexbox rules you can use!
 
 ### FlexBox Cheat Sheet
 
