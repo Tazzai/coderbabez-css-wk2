@@ -1,0 +1,56 @@
+/*Use flexbox to: 
+1. Make the nav a row of buttons aligned to the left of the page
+2. Center the hero image inside of the red div
+3. Make the subsection images align in the center of the page in a row, with space around each element*/
+
+
+
+
+
+
+
+
+/*You don't need to change this unless you want to*/
+body {
+    background: yellow;
+}
+#nav{
+    list-style: none;
+    background: darkblue;
+}
+
+#nav li{
+    padding: 15px;
+    color: white;
+    background: darkblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav #logo {
+    background: white;
+    padding: 10px;
+}
+
+#logo img{
+    height: 45px;
+}
+
+h1, h2 {
+    padding: 20px 0 5px 0;
+    font-family: 'Shrikhand', cursive;
+}
+
+
+#gallery {
+    background: red;
+}
+
+.gallery-item{
+    width: 510px;
+}
+
+.sub-section img {
+    margin: 10px;
+    border: darkblue solid 3px;
+    width: 13%;
+}
