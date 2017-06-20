@@ -35,8 +35,6 @@ body {
 }
 
 h1, h2 {
-    display:flex;
-    justify-content: center;
     padding: 20px 0 5px 0;
     font-family: 'Shrikhand', cursive;
 }
