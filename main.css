@@ -8,14 +8,11 @@ body {
     background: yellow;
 }
 #nav{
-    display: flex;
     list-style: none;
     background: darkblue;
 }
 
 #nav li{
-    display: flex;
-    flex-direction: row;
     padding: 15px;
     color: white;
     background: darkblue;
@@ -38,13 +35,11 @@ h1, h2 {
 
 
 #gallery {
-    display: flex;
-    justify-content: center;
     background: red;
 }
 
 .gallery-item{
-    width: 510px;
+    width: 1000px;
 }
 
 .sub-section img {
