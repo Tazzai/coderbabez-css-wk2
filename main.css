@@ -1,4 +1,4 @@
-/*Use flexbox to: 
+/*Use flexbox to:
 1. Make the nav a row of buttons aligned to the left of the page
 2. Center the hero image inside of the red div
 3. Make the subsection images align in the center of the page in a row, with space around each element*/
@@ -15,11 +15,14 @@ body {
     background: yellow;
 }
 #nav{
+    display: flex;
     list-style: none;
     background: darkblue;
 }
 
 #nav li{
+    display: flex;
+    flex-direction: row;
     padding: 15px;
     color: white;
     background: darkblue;
