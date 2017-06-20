@@ -20,8 +20,6 @@ body {
     color: white;
     background: darkblue;
     font-family: 'Montserrat', sans-serif;
-
-
 }
 
 #nav #logo {
@@ -41,6 +39,7 @@ h1, h2 {
 
 #gallery {
     display: flex;
+    justify-content: center;
     background: red;
 }
 
