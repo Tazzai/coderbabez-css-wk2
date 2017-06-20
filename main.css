@@ -3,13 +3,6 @@
 2. Center the hero image inside of the red div
 3. Make the subsection images align in the center of the page in a row, with space around each element*/
 
-
-
-
-
-
-
-
 /*You don't need to change this unless you want to*/
 body {
     background: yellow;
@@ -45,6 +38,8 @@ h1, h2 {
 
 
 #gallery {
+    display: flex;
+    justify-content: center;
     background: red;
 }
 
